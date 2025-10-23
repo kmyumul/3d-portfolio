@@ -9,16 +9,16 @@ import ScrollReveal from "./scrollReveal";
 const projects = [
   {
     id: 1,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
-    image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    title: "Canvas-All-In-One",
+    description: "Easily navigate through your Canvas assignments with this Google Chrome Extension!",
+    image: "/images/CAOI.png",
+    link: "https://github.com/Kokiix/canvas-all-in-one",
   },
   {
     id: 2,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
-    image: "/images/thumbnaildora.png",
+    title: "User Auth Testing Site",
+    description: "Confirm your user authentication with my test website utilizing Supabase!",
+    image: "/images/user-auth-ss.png",
     link: "https://yourprojectlink.com",
   },
 ];

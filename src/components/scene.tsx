@@ -19,11 +19,11 @@ const Scene: React.FC = () => {
     >
       <Canvas 
         camera={{ 
-          position: [7, 2, 8], // [x, y, z] - Camera position in 3D space
+          position: [2, 4, -10], // [x, y, z] - Camera position in 3D space
           // x: 7 = 7 units to the right
           // y: 2 = 2 units up
           // z: 8 = 8 units away from center
-          fov: 50 // Field of view (50 degrees) - lower = more zoomed in, higher = wider view
+          fov: 60 // Field of view (50 degrees) - lower = more zoomed in, higher = wider view
           // Try: 35-45 for tight zoom, 50-60 for normal, 70+ for wide angle
         }}
       >

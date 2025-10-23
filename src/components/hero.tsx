@@ -20,21 +20,27 @@ const Hero: React.FC = () => {
       >
         {/* Replace your name here */}
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          hi, i&apos;m <span className="text-[#04D9FF]">your name</span>
+          hello, i&apos;m <span className="text-[#C10B0B]">kyle</span>
         </h1>
 
         {/* Replace your role or title here */}
-        <h2 className="text-2xl md:text-3xl text-gray-300">
-          a creative <span className="text-[#04D9FF]">developer</span> @ uf
+        <h2 className="text-2xl md:text-3xl text-gray-300 w-[480px] text-center">
+          an <span className="italic">imaginative</span> <span className="text-[#04D9FF]">developer</span>
+        </h2>
+        <h2 className="text-2xl md:text-3xl text-gray-300 w-[480px] text-center">@</h2>
+        <h2 className="text-6xl text-gray-300 w-[480px] text-center">
+          <span className="text-[#0021A5]">U</span>
+          <span className="text-[#FA4616]">F</span>
         </h2>
 
         {/* Replace this text with your short bio or tagline */}
         <p className="text-gray-400 max-w-lg mx-auto md:mx-0">
-          i build visually stunning web experiences using Next.js, TypeScript, and Three.js.
+          i built this visually stunning web experiences using 
+          Next.js, TypeScript, and Three.js. how  
         </p>
 
         {/* Customize your buttons and links here */}
-        <div className="flex justify-center md:justify-start space-x-6 pt-6">
+        <div className="flex justify-center md:justify-start space-x-6 pt-6 w-[480px] text-center">
           <a
             href="#projects"
             className="px-6 py-3 bg-[#04D9FF] text-black font-semibold rounded-lg hover:bg-[#00BFFF] transition-all"
